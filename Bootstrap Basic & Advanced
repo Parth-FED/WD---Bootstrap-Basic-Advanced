@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstep | Phlox</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNeSmi6Y4hAvF7dGLH3tKLUFPg_Xqr7jSHgw&usqp=CAU" type="image/x-icon">
+    <style>
+        *{
+            /* margin: 0; */
+            /* padding: 0; */
+            box-sizing: border-box;
+            text-decoration:none !important;
+            
+        }
+       .info1 h1{
+        font-size:60px;
+        
+       }
+       .info p{
+        font-size:larger;
+       }
+       .info1 button{
+        /* height: 60px; */
+        width: 170px;
+        border-radius: 40%;
+        font-size: larger;
+       }
+       .img1{
+        height: inherit;
+       }
+       .info1 h2{
+        font-size: 45px;
+       }
+       .img2{
+        height: inherit;
+       }
+       .img3{
+        height: inherit;
+       }
+       
+       
+    </style>
+</head>
+<body>
+    <div class="nevbar m-2 p-5 d-flex justify-content-between">
+        <div class="logo">
+          <img src="https://demo.phlox.pro/portfolio-creative/wp-content/uploads/sites/157/2020/03/logo@2x.png" alt="logo">
+        </div>
+        <div class="manu p-2 " >
+          <a href="" class="text-dark pe-5">Home</a>
+          <a href=""class="text-dark pe-5">Services</a>
+          <a href=""class="text-dark pe-5">About</a>
+          <a href=""class="text-dark pe-5">Portfolio</a>
+          <a href=""class="text-dark pe-5">Contact</a>
+        </div>
+    </div>
+
+    <div class="info m-3 p-3 d-flex justify-content-between">
+        <div class="info1 my-5 py-5">
+           <h1 class="py-3">Creativity Is The Key<br> Of Success</h1>
+           <p class="py-3">Our mission is to provide quality English language instruction a variety of courses to international and local students in a professional and supportive atmosphere English teaching.</p>
+           <button class="bg-primary text-white my-4 p-3">Read More</button>
+        </div>
+        <div class="img1">
+        <img src="https://demo.phlox.pro/portfolio-creative/wp-content/uploads/sites/157/2020/03/Image1.png" alt="1stimg">
+        </div>
+    </div>
+    <div class="info m-2 p-2 d-flex justify-content-between">
+        <div class="info1 my-5 py-5">
+            <h2 class="py-3">Do You Know How Many<br> Creative People Work Here ?</h2>
+            <p class="py-3">Our mission is to provide quality English language instruction a variety of courses to international and local students in a professional and supportive atmosphere English teaching.</p>
+            <button class="bg-primary text-white my-4 p-3">See More</button>
+        </div>
+        <div class="img2">
+            <img src="https://demo.phlox.pro/portfolio-creative/wp-content/uploads/sites/157/2020/03/Image3.png" alt="">
+        </div>
+    </div>
+    <div class="info m-2 p-5 d-flex justify-content-between bg-info">
+        <div class="img3">
+           <img src="https://demo.phlox.pro/portfolio-creative/wp-content/uploads/sites/157/2020/03/Group_4056.svg" alt="">
+        </div>
+        <div class="info1 my-5 py-5" >
+           <h1 class="py-3">We Are Ready To Run<br> Your New Project!</h1> 
+           <button class="bg-primary text-white my-4 p-3">Contact Us</button>
+        </div>
+    </div>
+
+</body>
+</html>
